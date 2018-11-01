@@ -1,6 +1,34 @@
 1.查看python版本： python -V   Mac自带有2.x的python,可以安装再安装一个3.x的版本，用命令python和python3予以区分。
-2.python中单行注释为//，多行注释为’’’ 和’‘’
+2.python中单行注释为//，多行注释为’’’ 和"""
 3.初期先用交互式环境ipython或者ipython3进行练习。后期再用IDE工具 pycharm。
 4.输入函数 input(),打印函数 print(),          tips: python2.x中是可以不用（）直接跟字符串打印的。
 5.占位符，3.x版本的python中用{}和:替代2.x中的%.
 6.format函数用户对字符串的格式化。 
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/arcpanelx/pana.git
+git push -u origin master
+
+In [1]: input("请输入你的名字：")
+请输入你的名字：吧
+
+In [2]: print("我要换行")
+我要换行
+
+In [5]: print("我不要换行",end="")
+我不要换行
+In [6]:
+
+In [6]: "{},{}".format(10,20)
+   ...:
+Out[6]: '10,20'
+
+In [7]: "{1},{0}".format(10,20)
+   ...:
+   ...:
+Out[7]: '20,10'
+
+
